@@ -1,11 +1,14 @@
 import React from 'react';
+import { TextField } from './TextField';
 
 // props
 // hooks
 // render props
 
 const App: React.FC = () => {
-  return <div>yo</div>
+  return <div>
+    <TextField text='hello'/>
+  </div>
 }
 
 export default App;
