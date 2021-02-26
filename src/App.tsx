@@ -7,7 +7,7 @@ import { TextField } from './TextField';
 
 const App: React.FC = () => {
   return <div>
-    <TextField text='hello'/>
+    <TextField text='hello' person={{firstName: '', lastName: ''}}/>
   </div>
 }
 
