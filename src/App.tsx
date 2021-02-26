@@ -11,6 +11,7 @@ const App: React.FC = () => {
     <Counter>
       {(count, setCount) => (
         <div>
+          <button onClick={() => setCount(count - 1)}>-</button>
           {count}
           <button onClick={() => setCount(count + 1)}>+</button>
         </div>
